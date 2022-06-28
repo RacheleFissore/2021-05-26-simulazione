@@ -116,6 +116,8 @@ public class Model {
 				numLocaliBest = livello;
 				percorsoBest = new ArrayList<>(parziale);
 			}
+			
+			return;
 		}
 		else {			
 			Set<DefaultWeightedEdge> archi = grafo.outgoingEdgesOf(ultimo); // Mi prendo tutti gli archi uscenti dall'ultimo vertice presente nella lista
